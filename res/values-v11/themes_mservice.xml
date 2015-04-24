@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="mservice" parent="@style/_mservice"/>
+
+  <style name="_mservice" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <item name="android:editTextBackground">@drawable/mservice_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#99009688</item>
+    <item name="android:textSelectHandleLeft">@drawable/mservice_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/mservice_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/mservice_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewmservice</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/mservice_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/mservice_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/Buttonmservice</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonmservice</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/Spinnermservice</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarmservice</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarmservice</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarmservice</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigmservice</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallmservice</item>
+
+    <item name="android:buttonStyleToggle">@style/Togglemservice</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/mservice_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/mservice_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/mservice_fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>

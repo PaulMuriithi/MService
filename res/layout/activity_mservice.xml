@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mservice.MService" >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/button_start_back"
+            style="@style/Buttonmservice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="50"
+            android:onClick="startBackPlayService"
+            android:text="@string/start_backround_task "
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_stop_back"
+            style="@style/Buttonmservice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/button_start_back"
+            android:layout_weight="50"
+            android:onClick="stopBackPlayService"
+            android:text="@string/stop_backround_task "
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fore_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back_layout"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/button_start_fore"
+            style="@style/Buttonmservice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="50"
+            android:onClick="startForePlayService"
+            android:text="@string/start_foreground_task "
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_stop_fore"
+            style="@style/Buttonmservice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/button_start_fore"
+            android:layout_weight="50"
+            android:onClick="stopForePlayService"
+            android:text="@string/stop_backround_task "
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

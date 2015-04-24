@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MService</string>
+    <string name="action_settings">Settings</string>
+    <string name="start_backround_task ">Start background service</string>
+    <string name="stop_backround_task ">Stop background service</string>
+    <string name="start_foreground_task ">Start foreground service</string>
+    <string name="stop_foreground_task ">Stop background service</string>
+
+</resources>
